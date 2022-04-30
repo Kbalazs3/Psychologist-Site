@@ -1,0 +1,8 @@
+distlib==0.3.4
+filelock==3.6.0
+pi==0.1.2
+platformdirs==2.5.2
+six==1.16.0
+virtualenv==20.14.1
+
+Flask~=2.1.2
