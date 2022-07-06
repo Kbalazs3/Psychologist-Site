@@ -1,13 +1,24 @@
 
 body {
-    background-color: yellow;
+    background-color: white;
 }
 
 .header {
-  padding: 60px;
+  position: relative;
+  top: 0;
+  height: fit-content;
+  width: 100%;
+  padding: 0;
+  margin: 0;
   text-align: center;
   background: #1abc9c;
   color: white;
-  font-size: 30px;
+  font-size: 16px;
+}
+
+.menu {
+  position: relative;
+  text-align: left;
+  font-size: 14px;
 }
 
