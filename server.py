@@ -8,13 +8,18 @@ def index_page():
     return render_template("index.html")
 
 
-@app.route("/service")
+@app.route('/introduction')
+def introduction():
+    return render_template("introduction.html")
+
+
+@app.route('/service')
 def service_and_price():
     pass
 
 
 
-@app.route("/contact")
+@app.route('/contact')
 def contact_page():
     return render_template("contact.html")
 
