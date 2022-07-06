@@ -1,6 +1,6 @@
 
 body {
-    background-color: #808080;
+    background-color: #e6e49a/*#808080*/;
   padding: 0;
   margin: 0;
 }
@@ -8,14 +8,18 @@ body {
 .content {
   position: relative;
   top: 120px;
+  left: 60px;
   height: 70%;
-  width: 55%;
+  width: 52%;
   background-color: white;
   font-size: 18px;
   font-family: Arial;
   font-weight: bolder;
-  border-radius: 2px;
+  border-radius: 3px;
+}
 
+.contentText {
+    text-indent: 40px;
 }
 
 .subtitles {
@@ -66,5 +70,15 @@ body {
 
 .topnav a.active:hover {
   background-color: darkgray;
+}
+
+.telephone_icon {
+  width: 2%;
+  height: 2%;
+}
+
+#email_logo {
+  width: 5%;
+  height: 3%;
 }
 
