@@ -1,10 +1,12 @@
 
 body {
-    background-color: white;
+    background-color: yellow;
+  padding: 0;
+  margin: 0;
 }
 
 .header {
-  position: relative;
+  position: absolute;
   top: 0;
   height: fit-content;
   width: 100%;
@@ -18,6 +20,7 @@ body {
 
 .menu {
   position: relative;
+  top: 70px;
   text-align: left;
   font-size: 14px;
 }
