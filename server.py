@@ -18,10 +18,14 @@ def service_and_price():
     return render_template("service_and_price.html")
 
 
-
 @app.route('/contact')
 def contact_page():
     return render_template("contact.html")
+
+
+@app.route("/blog")
+def blog():
+    return render_template("blog.html")
 
 
 def main():

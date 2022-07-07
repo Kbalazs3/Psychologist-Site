@@ -136,12 +136,12 @@ body {
 #room_picture_div {
     background-color: #e6e49a;
   opacity: 100%;
-  height: 60%;
-  width: 20%;
+  height: fit-content;
+  width: fit-content;
   float: right;
   position: relative;
-  top: 5px;
-  right: 300px;
+  bottom: 530px;
+  right: 20px;
   margin: 0 0 0 15px;
   text-align: left;
 }
@@ -149,9 +149,14 @@ body {
 #room_picture {
   position: relative;
   right: 40px;
-  top: 50px;
+  top: 0;
   margin: 0;
   padding: 20px;
 }
+
+/*#houseIcon {
+  width: 2%;
+  height: 2%;
+}*/
 
 
