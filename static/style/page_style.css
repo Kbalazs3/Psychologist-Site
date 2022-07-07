@@ -104,7 +104,6 @@ body {
   position: relative;
   right: 10px;
   top: 50px;
-  top: 0;
   margin: 0;
   padding: 0;
 
@@ -121,7 +120,38 @@ body {
   right: 80px;
   margin: 0 0 0 15px;
   text-align: center;
+}
 
+#list_title {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+#indexText {
+  font-size: 22px;
+  font-weight: bolder;
+  font-family: Arial;
+}
+
+#room_picture_div {
+    background-color: #e6e49a;
+  opacity: 100%;
+  height: 60%;
+  width: 20%;
+  float: right;
+  position: relative;
+  top: 5px;
+  right: 300px;
+  margin: 0 0 0 15px;
+  text-align: left;
+}
+
+#room_picture {
+  position: relative;
+  right: 40px;
+  top: 50px;
+  margin: 0;
+  padding: 20px;
 }
 
 

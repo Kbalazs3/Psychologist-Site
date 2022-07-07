@@ -15,7 +15,7 @@ def introduction():
 
 @app.route('/service')
 def service_and_price():
-    pass
+    return render_template("service_and_price.html")
 
 
 
