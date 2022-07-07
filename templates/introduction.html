@@ -18,7 +18,7 @@
   <a href="contact">Kapcsolat</a>
     </div>
 
-    <div class="content">
+    <div id="intro_content">
         <br>
         <h2 class="subtitles">Bemutatkozás</h2>
         <br>
@@ -31,7 +31,8 @@
         <br>
         <br>
     </div>
-    <img id="profile_picture" src="{{url_for('static',filename = 'Pictures/Images/profile_picture.jpg')}}">
-
+    <div id="profile_picture_div">
+        <img id="profile_picture" src="{{url_for('static',filename = 'Pictures/Images/pp.png')}}">
+    </div>
 </body>
 </html>
