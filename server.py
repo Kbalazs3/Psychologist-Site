@@ -1,4 +1,5 @@
 from flask import Flask, render_template, url_for
+from data_store import file_manager
 
 app = Flask('Psychologist_Site')
 
@@ -26,6 +27,9 @@ def contact_page():
 @app.route("/blog")
 def blog():
     return render_template("blog.html")
+
+
+# data_store.file_manager("data/blog_article/flow_article")
 
 
 def main():
